@@ -1,0 +1,72 @@
+.badge {
+  position: absolute;
+  left: 20px;
+  bottom: 30%;
+  padding: 5px 25px 5px 20px;
+}
+
+#root {
+  padding-top: 10vh;
+}
+
+figure.avatar {
+  width: 40px;
+  border-radius: 20%;
+  overflow: hidden;
+}
+figure.avatar img {
+  width: 100%;
+}
+figure.avatar:hover {
+  cursor: pointer;
+}
+
+p.navbar-brand {
+  width: 15%;
+}
+
+.icon {
+  width: 1em !important;
+}
+
+.active {
+  border: none !important;
+  background-color: rgba(82, 67, 217, 0.3411764706) !important;
+}
+
+.btn:hover {
+  background-color: rgba(82, 67, 217, 0.3411764706) !important;
+}
+
+.rightNav {
+  flex-grow: 0 !important;
+}
+
+.cardRect figure {
+  overflow: hidden;
+}
+.cardRect figure img {
+  transition: 0.5s;
+}
+.cardRect h4 {
+  transition: 0.5s;
+}
+.cardRect:hover {
+  cursor: pointer;
+}
+.cardRect:hover figure img {
+  scale: 1.1;
+}
+.cardRect:hover h4 {
+  color: violet;
+}
+
+.cardCirc h4 {
+  transition: 0.5s;
+}
+.cardCirc:hover {
+  cursor: pointer;
+}
+.cardCirc:hover h4 {
+  color: violet !important;
+}/*# sourceMappingURL=style.css.map */
