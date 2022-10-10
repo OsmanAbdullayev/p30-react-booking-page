@@ -131,30 +131,30 @@ class Header extends Component {
 					</button>
 					<div className="collapse navbar-collapse rightNav" id="navbarSupportedContent2">
 						<ul className="navbar-nav me-auto mb-2 mb-lg-0">
-							<li class="nav-item">
+							<li className="nav-item">
 								<button className="btn active p-2 m-1">
-									<FontAwesomeIcon icon={faHotel} class="icon me-2"></FontAwesomeIcon>Hotel
+									<FontAwesomeIcon icon={faHotel} className="icon me-2"></FontAwesomeIcon>Hotel
 								</button>
 							</li>
-							<li class="nav-item">
+							<li className="nav-item">
 								<button className="btn p-2 m-1">
-									<FontAwesomeIcon icon={faPlane} class="icon me-2"></FontAwesomeIcon>Flight
+									<FontAwesomeIcon icon={faPlane} className="icon me-2"></FontAwesomeIcon>Flight
 								</button>
 							</li>
-							<li class="nav-item">
+							<li className="nav-item">
 								<button className="btn p-2 m-1">
-									<FontAwesomeIcon icon={faEarth} class="icon me-2"></FontAwesomeIcon>Tour
+									<FontAwesomeIcon icon={faEarth} className="icon me-2"></FontAwesomeIcon>Tour
 								</button>
 							</li>
-							<li class="nav-item">
+							<li className="nav-item">
 								<button className="btn p-2 m-1">
-									<FontAwesomeIcon icon={faCar} class="icon me-2"></FontAwesomeIcon>Cab
+									<FontAwesomeIcon icon={faCar} className="icon me-2"></FontAwesomeIcon>Cab
 								</button>
 							</li>
 						</ul>
 					</div>
 						<button className="btn py-2 px-3 m-1">
-							<FontAwesomeIcon icon={faBell} class="icon"></FontAwesomeIcon>
+							<FontAwesomeIcon icon={faBell} className="icon"></FontAwesomeIcon>
 						</button>
 						<figure className="avatar m-1">
 							<img src={Avatar} alt="#" />

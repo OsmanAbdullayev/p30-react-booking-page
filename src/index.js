@@ -14,59 +14,27 @@ class App extends Component {
 		return (
 			<div className="container">
 				<Header />
-				<h1 class="title text-center fw-bold">Featured Hotels</h1>
+				<h1 className="title text-center fw-bold">Featured Hotels</h1>
 				<div className="row my-5">
-					<div className="col-lg-3 col-md-6">
-						<CardRect />
-					</div>
-					<div className="col-lg-3 col-md-6">
-						<CardRect />
-					</div>
-					<div className="col-lg-3 col-md-6">
-						<CardRect />
-					</div>
-					<div className="col-lg-3 col-md-6">
-						<CardRect />
-					</div>
+					<CardRect location="New-York" hotelName="Miami Beach Hotel" price="455" imageSource={require("./img/category/hotel/01.jpg")} />
+					<CardRect location="Boston" hotelName="West Coast Hotel" price="133" imageSource={require("./img/category/hotel/02.jpg")}/>
+					<CardRect location="California" hotelName="Golden Beach Luxury" price="122" imageSource={require("./img/category/hotel/03.jpg")}/>
+					<CardRect location="Wisconsin" hotelName="Red Dragon" price="322" imageSource={require("./img/category/hotel/04.jpg")}/>
 				</div>
 				<h1 className="title text-center fw-bold my-5">Explore Nearby</h1>
 				<div className="row g-5">
-					<div className="col-lg-2 col-md-3 col-sm-4">
-						<CardCirc />
-					</div>
-					<div className="col-lg-2 col-md-3 col-sm-4">
-						<CardCirc />
-					</div>
-					<div className="col-lg-2 col-md-3 col-sm-4">
-						<CardCirc />
-					</div>
-					<div className="col-lg-2 col-md-3 col-sm-4">
-						<CardCirc />
-					</div>
-					<div className="col-lg-2 col-md-3 col-sm-4">
-						<CardCirc />
-					</div>
-					<div className="col-lg-2 col-md-3 col-sm-4">
-						<CardCirc />
-					</div>
-					<div className="col-lg-2 col-md-3 col-sm-4">
-						<CardCirc />
-					</div>
-					<div className="col-lg-2 col-md-3 col-sm-4">
-						<CardCirc />
-					</div>
-					<div className="col-lg-2 col-md-3 col-sm-4">
-						<CardCirc />
-					</div>
-					<div className="col-lg-2 col-md-3 col-sm-4">
-						<CardCirc />
-					</div>
-					<div className="col-lg-2 col-md-3 col-sm-4">
-						<CardCirc />
-					</div>
-					<div className="col-lg-2 col-md-3 col-sm-4">
-						<CardCirc />
-					</div>
+					<CardCirc location="New-York" timeDistance="20 mins" imageSource={require("./img/category/hotel/nearby/01.jpg")}/>
+					<CardCirc location="New-York" timeDistance="20 mins" imageSource={require("./img/category/hotel/nearby/02.jpg")}/>
+					<CardCirc location="New-York" timeDistance="20 mins" imageSource={require("./img/category/hotel/nearby/03.jpg")}/>
+					<CardCirc location="New-York" timeDistance="20 mins" imageSource={require("./img/category/hotel/nearby/04.jpg")}/>
+					<CardCirc location="New-York" timeDistance="20 mins" imageSource={require("./img/category/hotel/nearby/05.jpg")}/>
+					<CardCirc location="New-York" timeDistance="20 mins" imageSource={require("./img/category/hotel/nearby/06.jpg")}/>
+					<CardCirc location="New-York" timeDistance="20 mins" imageSource={require("./img/category/hotel/nearby/07.jpg")}/>
+					<CardCirc location="New-York" timeDistance="20 mins" imageSource={require("./img/category/hotel/nearby/08.jpg")}/>
+					<CardCirc location="New-York" timeDistance="20 mins" imageSource={require("./img/category/hotel/nearby/09.jpg")}/>
+					<CardCirc location="New-York" timeDistance="20 mins" imageSource={require("./img/category/hotel/nearby/10.jpg")}/>
+					<CardCirc location="New-York" timeDistance="20 mins" imageSource={require("./img/category/hotel/nearby/11.jpg")}/>
+					<CardCirc location="New-York" timeDistance="20 mins" imageSource={require("./img/category/hotel/nearby/01.jpg")}/>
 				</div>
 			</div>
 		);
