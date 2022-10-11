@@ -13,7 +13,8 @@ export class CardRect extends Component {
 						<img src={this.props.imageSource} className="card-img-top rounded-4" alt="error" />
 					</figure>
 					<span className="badge rounded-pill text-bg-dark fs-6">
-						<FontAwesomeIcon icon={faLocationDot} className="icon text-warning me-2 text-light"></FontAwesomeIcon>{this.props.location}
+						<FontAwesomeIcon icon={faLocationDot} className="icon text-warning me-2 text-light"></FontAwesomeIcon>
+						{this.props.location}
 					</span>
 					<div className="card-body">
 						<h4 className="card-title fw-bold">{this.props.hotelName}</h4>

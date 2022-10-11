@@ -6,6 +6,7 @@ import { faPlane } from "@fortawesome/free-solid-svg-icons";
 import { faEarth } from "@fortawesome/free-solid-svg-icons";
 import { faCar } from "@fortawesome/free-solid-svg-icons";
 import { faBell } from "@fortawesome/free-solid-svg-icons";
+import { faHamburger } from "@fortawesome/free-solid-svg-icons";
 import Avatar from "../img/avatar/01.jpg";
 
 class Header extends Component {
@@ -127,7 +128,7 @@ class Header extends Component {
 					{/* dropdowns end */}
 					{/* buttons start */}
 					<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
-						<span className="navbar-toggler-icon" />
+					<FontAwesomeIcon icon={faHamburger} className="icon m-1"></FontAwesomeIcon>
 					</button>
 					<div className="collapse navbar-collapse rightNav" id="navbarSupportedContent2">
 						<ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -153,12 +154,12 @@ class Header extends Component {
 							</li>
 						</ul>
 					</div>
-						<button className="btn py-2 px-3 m-1">
-							<FontAwesomeIcon icon={faBell} className="icon"></FontAwesomeIcon>
-						</button>
-						<figure className="avatar m-1">
-							<img src={Avatar} alt="#" />
-						</figure>
+					<button className="btn py-2 px-3 m-1">
+						<FontAwesomeIcon icon={faBell} className="icon"></FontAwesomeIcon>
+					</button>
+					<figure className="avatar m-1">
+						<img src={Avatar} alt="#" />
+					</figure>
 					{/* buttons end */}
 				</div>
 			</nav>
