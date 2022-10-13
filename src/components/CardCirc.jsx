@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import img1 from "../img/category/hotel/nearby/01.jpg";
 
 export class CardCirc extends Component {
 	render() {
